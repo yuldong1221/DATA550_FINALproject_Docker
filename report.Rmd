@@ -1,0 +1,29 @@
+---
+title: "DATA550 Final Project Report"
+author: "Lidong Yu"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+## Introduction
+
+This is a reproducible report generated using Docker.
+
+## Simple Analysis
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+```{r pressure, echo=FALSE}
+plot(cars)
+```
+
+

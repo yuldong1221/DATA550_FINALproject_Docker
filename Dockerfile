@@ -1,4 +1,6 @@
-# Simple Dockerfile
-FROM alpine:latest
+FROM rocker/verse:4.3.1
 
-CMD ["echo", "Hello from my Docker image!"]
+COPY . /project
+WORKDIR /project
+
+CMD ["Rscript", "render.R"]
